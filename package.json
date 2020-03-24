@@ -29,7 +29,7 @@
     "grunt-eslint": "latest",
     "grunt-stylelint": "latest",
     "minimatch": "latest",
-    "stylelint": "latest",
+    "stylelint": "13.0.0",
     "stylelint-config-standard": "latest"
   }
 }
