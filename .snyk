@@ -1,0 +1,44 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - stylelint > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - eslint > table > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - stylelint > table > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - grunt-eslint > eslint > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - grunt > grunt-legacy-log > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - grunt > grunt-legacy-util > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - grunt-eslint > eslint > inquirer > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - grunt-eslint > eslint > table > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-05T21:14:35.313Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-05T21:14:35.313Z'

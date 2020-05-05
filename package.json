@@ -4,7 +4,9 @@
   "description": "Simplest possible examples of HTML, CSS and JavaScript",
   "main": "Gruntfile.js",
   "scripts": {
-    "test": "grunt --verbose"
+    "test": "grunt --verbose",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -30,6 +32,8 @@
     "grunt-stylelint": "latest",
     "minimatch": "latest",
     "stylelint": "latest",
-    "stylelint-config-standard": "latest"
-  }
+    "stylelint-config-standard": "latest",
+    "snyk": "^1.319.0"
+  },
+  "snyk": true
 }
