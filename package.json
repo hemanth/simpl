@@ -28,7 +28,7 @@
     "grunt-cli": "latest",
     "grunt-eslint": "latest",
     "grunt-stylelint": "latest",
-    "minimatch": "latest",
+    "minimatch": "3.0.5",
     "stylelint": "latest",
     "stylelint-config-standard": "latest"
   }
