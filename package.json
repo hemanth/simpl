@@ -26,7 +26,7 @@
     "eslint": "latest",
     "grunt": "latest",
     "grunt-cli": "latest",
-    "grunt-eslint": "latest",
+    "grunt-eslint": "25.0.0",
     "grunt-stylelint": "latest",
     "minimatch": "latest",
     "stylelint": "latest",
